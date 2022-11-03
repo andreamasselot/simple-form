@@ -1,3 +1,12 @@
+
+.App{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .formulaire {
   display: flex;
   flex-direction: column;
@@ -12,9 +21,57 @@
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  width: 30%;
+  width: 250px;
+  
+ 
 }
 
 .formulaire input {
   padding: 10px;
+}
+.results-container {
+  background-color: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  max-width: 30%;
+  border-radius: 5px;
+  padding: 20px;
+}
+ h1{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+input{
+  background-color: rgba(0, 0, 0, 0.1);
+  border: gray 1px solid;
+  border-radius: 5px;
+  color: grey;
+}
+.informations{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 16px;
+}
+ .edit {
+  margin-top: 20px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  background-color: #5C47D3;
+  border-radius: 5px;
+  padding: 10px;
+}
+footer{
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 40px;
+}
+footer span, a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 }

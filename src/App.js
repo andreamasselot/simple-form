@@ -10,7 +10,6 @@ function App() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [samePassword, setSamePassword] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
   const [form, setForm] = useState(false);
 
   const handleSubmit = (event) => {
@@ -33,7 +32,7 @@ function App() {
         email={email} setEmail={setEmail}
         password={password} setPassword={setPassword}
         samePassword={samePassword} setSamePassword={setSamePassword}
-        errorMessage={errorMessage} setErrorMessage={setErrorMessage} /> }
+          /> }
 
       
 

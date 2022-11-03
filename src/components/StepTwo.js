@@ -1,18 +1,24 @@
-import Form from "./Form";
+
 
 const StepTwo = (props) => {
 return (
-  <div className="results-container">
-    <h1>Results</h1>
+ <>
+<div className="title-step-two">
+
+    <h1>Results</h1> </div>
+    <div className="results-container">
     <div className="informations">
       <p>Name : {props.name} </p>
       <p>Email : {props.email}</p>
       <p>Password : {props.password} </p>
     </div>
-      <button onClick={()=>{
+    </div>
+    
+      <button className="edit" onClick={()=>{
         props.setForm(false)        
       }}>Edit your information</button>
-  </div>)
+  
+  </>)
 
 };
 

@@ -22,7 +22,7 @@ const Form = (props) => {
           props.setSamePassword(event.target.value);
         }} />
 
-        <button type="submit"> Register</button>
+        <button className="edit" type="submit"> Register</button>
 
       </form>
       {props.errorMessage && <p style={{color: "red"}}>{props.errorMessage}</p>}
