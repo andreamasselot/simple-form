@@ -1,3 +1,5 @@
+import Form from "./Form";
+
 const StepTwo = (props) => {
 return (
   <div className="results-container">
@@ -7,7 +9,9 @@ return (
       <p>Email : {props.email}</p>
       <p>Password : {props.password} </p>
     </div>
-      <button>Edit your information</button>
+      <button onClick={(props)=>{
+<Form/>
+      }}>Edit your information</button>
   </div>)
 
 };
