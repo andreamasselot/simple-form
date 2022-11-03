@@ -9,8 +9,8 @@ return (
       <p>Email : {props.email}</p>
       <p>Password : {props.password} </p>
     </div>
-      <button onClick={(props)=>{
-<Form/>
+      <button onClick={()=>{
+        
       }}>Edit your information</button>
   </div>)
 
