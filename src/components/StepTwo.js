@@ -10,7 +10,7 @@ return (
       <p>Password : {props.password} </p>
     </div>
       <button onClick={()=>{
-        
+        props.setForm(false)        
       }}>Edit your information</button>
   </div>)
 

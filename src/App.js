@@ -25,7 +25,9 @@ function App() {
   return (
     <div className="App">
 
-{form ? <StepTwo name={name} email={email} password={password} /> : <Form
+{form ? <StepTwo name={name} email={email} password={password} setForm={setForm} /> : 
+
+        <Form
         handleSubmit={handleSubmit}
         name={name} setName={setName}
         email={email} setEmail={setEmail}
